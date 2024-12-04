@@ -1,0 +1,534 @@
+
+
+<base href="https://cdn.jsdelivr.net/gh/linuxguist/products@main/">
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Company</title>
+    <link rel="shortcut icon" href="https://i.imgur.com/IfT8e5p.jpg" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" />
+    <link rel="stylesheet" href="products/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="products/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="products/css/animate.min.css">
+    <link href="products/css/drawer.min.css" rel="stylesheet">
+    <link href="products/css/drawer.css" rel="stylesheet">
+    <link rel="stylesheet" href="products/css/simple-lightbox.css" />
+    <link rel="stylesheet" href="products/css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<style type="text/css">
+
+html,body {
+background-color: khaki;
+}   
+  
+/*  
+.scrollable-menu {
+    overflow-y: scroll;
+    max-height: 600px; 
+}
+*/  
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}  
+  
+/* Dropdown menu background color*/
+
+.navbar-nav > li > .dropdown-menu {     background-color: #606060;  }
+
+/* Dropdown menu font color*/ 
+
+ .navbar-nav > li > .dropdown-menu a{   color: khaki;  }
+  
+/* Dropdown menu font hover color*/ 
+
+ .navbar-nav > li > .dropdown-menu a:hover{   color: blue;  }  
+  
+  
+@media screen and (max-width: 800px) {
+.scrollable-menu {
+    overflow-y: scroll;
+    max-height: 100px; /* Adjust as needed */
+}  
+}  
+  
+@media screen and (max-width: 991px) {
+  .drawer-navbar-header {
+    background-color: khaki;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .drawer-menu-item {
+    color: black;
+    background-color: khaki;
+    // background-image: url(../images/s-nav-img-h.png);
+    background-repeat: no-repeat;
+    background-position: left 8px center;
+    padding-left: 35px;
+    border-bottom: 2px solid #373737;
+  }
+
+   .drawer-nav {
+    color: black;
+    background-color: khaki;
+    // background-image: url(../images/s-nav-img-h.png);
+    background-repeat: no-repeat;
+    background-position: left 0px center;
+    padding-left: -18px;
+    margin-left: 1px;
+   }
+
+.footer-social {
+  margin-left: -8px;
+  margin-right: 6px;
+}
+  
+/*  
+.scrollable-menu {
+    overflow-y: scroll;
+    max-height: 600px; 
+} 
+*/  
+
+}
+
+/* The media query and the max-width are just for demo */
+@media only screen and(max-width:1024px){
+    .navbar.expanded {
+      background-color: white;
+    }
+
+    .navbar.expanded .navbar-collapse {
+      background-color: white;
+    }
+
+    .navbar.expanded .navbar-toggler-icon{
+      color: black;
+    }
+
+    .navbar.expanded h2{
+      color: black;
+    }
+
+    .navbar.expanded #navbarToggle>ul>li>a{
+      color: black;
+    }
+}
+
+</style>
+
+</head>
+
+<body class="drawer drawer--right">
+    <div class="drawer-overlay drawer-toggle"></div>
+    <div class="drawer-container">
+        <div class="drawer-navbar-header">
+            <a class="navbar-brand" href="https://example.com"><img src="https://i.imgur.com/IfT8e5p.jpg" alt="Company Logo"></a>
+            <button type="button" class="drawer-toggle drawer-hamburger"> <span class="sr-only">toggle navigation</span> <span class="drawer-hamburger-icon"></span> </button>
+        </div>
+        <div class="mob-nav-box"> </div>
+        <nav class="drawer-nav" role="navigation">
+            <ul class="drawer-menu drawer-menu--right scrollable-menu">
+                <li><a href="https://example.com" class="drawer-menu-item ">HOME</a></li>
+                <li><a href="https://example.com/company-profile.html" class="drawer-menu-item">COMPANY PROFILE</a></li>
+                <li><a href="https://example.com/why-us.html" class="drawer-menu-item ">WHY US</a></li>
+                <li><a href="https://example.com/infrastructure.html" class="drawer-menu-item">INFRASTRUCTURE</a></li>
+                <li><a href="products.html" class="drawer-menu-item active">PRODUCTS</a></li>
+                
+                <li><a href="https://example.com/contact-us.html" class="drawer-menu-item">CONTACT US</a></li>
+            </ul>
+            <div class="side-nav-footer">
+                <ul class="footer-table">
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank"> <img src="products/images/fb.png" class="footer-social"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" target="_blank"><img src="products/images/tw.png" class="footer-social"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="products/images/insta.png" class="footer-social"></a>
+                    </li>
+                    <li>
+                         <a href="https://www.youtube.com/channel/" target="_blank"><img src="products/images/you-tube.png" class="footer-social"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/" target="_blank"><img src="products/images/link.png" class="footer-social"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- <==========================top End=================================> -->
+    <div class="container d-none d-lg-block">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="navbar navbar-expand-lg navba">
+                    <a class="navbar-brand" href="https://example.com/"><img src="https://i.imgur.com/IfT8e5p.jpg" alt="Company Logo"></a>
+                    <ul class="navbar-nav ml-auto">
+                        <li><a href="https://example.com/index.html">HOME</a></li>
+                        <li class="nav-item dropdown"> <a class=" dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor:pointer">ABOUT US</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="https://example.com/company-profile.html">COMPANY PROFILE</a>
+                                <a class="dropdown-item" href="https://example.com/why-us.html">WHY US</a>
+                                <a class="dropdown-item" href="https://example.com/infrastructure.html">INFRASTRUCTURE</a> </div>
+                        </li>
+                        <li><a href="products.html" class="active">PRODUCTS</a></li>
+                        
+                        <li><a href="https://example.com/contact-us.html">CONTACT US</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- =================================header End==================================>-->
+
+    <!-- <=======================banner==============================> -->
+    <div class="bnr-inner py-2"> <img src="products/images/product-bnr.jpg" class="w-100"> </div>
+    <!-- <=======================banner end==============================> -->
+
+    <!-- ===================================about us============================ -->
+    <div class="wh-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-box wow fadeInUp">
+                        <h1 class="inner-headin">OUR PRODUCTS</h1>
+                        <h4>Try out our brands and feel what we stand for.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="well wow fadeInLeft"> <img src="products/images/product-1.jpg" class="w-100" alt="Product 1"> </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="well wow fadeInRight">
+                        <h3 class="sub-txt">Product Name</h3>
+                        <P class="inner-t text-justify"> Product Description Paragraph 1 </P>
+                        <P class="inner-t text-justify"> Product Description Paragraph 2 </P>
+                        <P class="inner-t text-justify"> Product Description Paragraph 3 </P>
+                        <P class="inner-t text-justify"> <strong>Packaging Size- 1kg, 5kg, 10kg, 25kg, 50kg</strong> </P>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="well wow fadeInLeft"> <img src="products/images/product-3.jpg" class="w-100" alt="Product 3"> </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="well wow fadeInRight">
+                        <h3 class="sub-txt">Product Name</h3>
+                        <P class="inner-t text-justify"> Product Description Paragraph 1 </P>
+                        <P class="inner-t text-justify"> Product Description Paragraph 2 </P>
+                        <P class="inner-t text-justify"> Product Description Paragraph 3 </P>
+                        <P class="inner-t text-justify"> <strong>Packaging Size- 1kg, 5kg, 10kg, 25kg, 50kg</strong> </P>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="well wow fadeInLeft"> <img src="products/images/product-2.jpg" class="w-100" alt="Product 2"> </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="well wow fadeInRight">
+                        <h3 class="sub-txt">Product Name</h3>
+                        <P class="inner-t text-justify"> Product Description Paragraph 1 </P>
+                        <P class="inner-t text-justify"> Product Description Paragraph 2 </P>
+                        <P class="inner-t text-justify"> Product Description Paragraph 3 </P>
+                        <P class="inner-t text-justify"> <strong>Packaging Size- 1kg, 5kg, 10kg, 25kg, 50kg</strong> </P>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="well wow fadeInLeft"> <img src="products/images/product-4.jpg" class="w-100" alt="Product 4"> </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="well wow fadeInRight">
+                        <h3 class="sub-txt">Product Name</h3>
+                        <P class="inner-t text-justify"> Product Description Paragraph 1 </P>
+                        <P class="inner-t text-justify"> Product Description Paragraph 2 </P>
+                        <P class="inner-t text-justify"> Product Description Paragraph 3 </P>
+                        <P class="inner-t text-justify"> <strong>Packaging Size- 1kg, 5kg, 10kg, 25kg, 50kg</strong> </P>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="well wow fadeInLeft"> <img src="products/images/product-5.jpg" class="w-100" alt="Product 5"> </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="well wow fadeInRight">
+                        <h3 class="sub-txt">Product Name</h3>
+                        <P class="inner-t text-justify"> Product Description Paragraph 1 </P>
+                        <P class="inner-t text-justify"> Product Description Paragraph 2 </P>
+                        <P class="inner-t text-justify"> Product Description Paragraph 3 </P>
+                        <P class="inner-t text-justify"> <strong>Packaging Size- 1kg, 5kg, 10kg, 25kg, 50kg</strong> </P>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="inner-headin">OUR PROCESS</h1>
+
+                </div>
+                <div class="col-sm-12">
+                    <img src="products/images/p1.jpg" class="w-100 mb-30 wow fadeInUp">
+                </div>
+                <div class="col-sm-12">
+                    <img src="products/images/p2.jpg" class="w-100 mb-30 wow fadeInUp">
+                </div>
+                <div class="col-sm-12">
+                    <img src="products/images/p3.jpg" class="w-100 mb-30 wow fadeInUp">
+                </div>
+                <div class="col-sm-12">
+                    <img src="products/images/p4.jpg" class="w-100 mb-30 wow fadeInUp">
+                </div>
+                <div class="col-sm-12">
+                    <img src="products/images/p5.jpg" class="w-100 mb-30 wow fadeInUp">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- ===================================about us end============================ -->
+
+    <div class="footer-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-5 wow fadeInUp">
+                    <ul class="footer-table">
+                        <li><i class="icon-location-pin icons"></i></li>
+                        <li>
+                            <strong>Head office</strong><br>
+                        123 Main Street, Apt. 5
+                        (Building number, Street name, Apartment number)
+                        Anytown (City)
+                        CA 12345 (Postcode)
+                        USA (Country)
+                        <br>
+                         <strong>Branch office</strong><br>
+                        123 Main Street, Apt. 5
+                        (Building number, Street name, Apartment number)
+                        Anytown (City)
+                        CA 12345 (Postcode)
+                        USA (Country)
+                    </li>
+                    </ul>
+                    <ul class="footer-table">
+                        <li><i class="icon-envelope  icons"></i></li>
+                        <li><a href="myemail[at]mycompany[dot]com">myemail[at]mycompany[dot]com</a></li>
+                    </ul>
+                    <ul class="footer-table">
+                        <li><i class="icon-phone  icons"></i></li>
+                        <li><a href="tel:+888888888888">+88 88 88 88 88 88</a></li>
+                    </ul>
+                    <ul class="footer-table">
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"> <img src="products/images/fb.png" class="footer-social"></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><img src="products/images/tw.png" class="footer-social"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank"><img src="products/images/insta.png" class="footer-social"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/" target="_blank"><img src="products/images/you-tube.png" class="footer-social"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/" target="_blank"><img src="products/images/link.png" class="footer-social"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-2"></div>
+                <div class="col-lg-4 col-md-5">
+                    <div class="inq-bg wow fadeInUp">
+
+<!-- 
+
+Below form uses the contact_mail.php file on the server side, for sending the mail. An example of this file is here : https://github.com/linuxguist/products/blob/main/contact_mail.php       
+
+Alternately, you can Google Search for how to write a contact form mail php file.               
+
+-->
+                      
+                      
+                      <form action="https://example.com/contact_mail.php" method="post" novalidate="novalidate" id="contact_form">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="name" placeholder="Your name" class="form-control">
+                                        <input type="hidden" name="recaptcha">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="phone" placeholder="Contact No." class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="email" name="email" placeholder="Email id" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea name="message" class="form-control" rows="4" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-success pull-right">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© Copyright YEAR All Rights Reserved by Company Name</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========================footer end=========================== -->
+    <script src="products/js/owl.carousel.min.js"></script>
+    <script src="products/js/wow.min.js"></script>
+    <script src="products/js/drawer.min.js"></script>
+    <script src="products/js/drawer.js"></script>
+    <script src="products/js/wow.min.js"></script>
+    <script src="products/js/script.js"></script>
+    <script src="products/js/simple-lightbox.js"></script>
+    <script>
+        (function() {
+            $('header').css('min-height', Math.max($(window).height(), 620));
+
+            $('body').fadeIn(200);
+
+            var $gallery = new SimpleLightbox('.small-demo a', {});
+
+            interval = window.setInterval(function() {
+                $('.scrollwheel').animate({
+                    top: 14
+                }, 400, function() {
+                    $('.scrollwheel').animate({
+                        top: 10
+                    }, 400);
+                })
+            }, 1000);
+        })();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- New Changes : Start -->
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+
+    
+    <script>
+        
+        $(document).ready(function() {
+
+            $.validator.addMethod("mobile", function(mobile_no, element) {
+                mobile_no = mobile_no.replace(/\s+/g, "");
+                return this.optional(element) || mobile_no.length == 10 &&
+                    mobile_no.match(/^((\+[1-9]{1,4}[ \-]*)|(\([0-9]{2,3}\)[ \-]*)|([0-9]{2,4})[ \-]*)*?[0-9]{3,4}?[ \-]*[0-9]{3,4}?$/);
+            }, "<br />Please specify a valid Mobile number");
+
+            $('#contact_form').validate({
+                rules: {
+                    name: 'required',
+                    email: {
+                        required: true,
+                        email: true,
+                    },
+                    phone: {
+                        required: true,
+                        mobile: true,
+                    },
+                    message: 'required',
+                },
+                messages: {
+                    name: {
+                        'required': 'Please Enter Name'
+                    },
+                    email: {
+                        'required': 'Please Enter Email'
+                    },
+                    phone: {
+                        'required': 'Please Enter Contact No.'
+                    },
+                    message: {
+                        'required': 'Please Enter Message'
+                    },
+                },
+
+            });
+        });
+    </script>
+    <!-- New Changes : End -->
+
+
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function() {
+  // Get the current URL, removing any fragment
+  var documentUrl = document.location.href.replace(/#.*$/, '')
+
+  // Iterate through all links
+  var linkEls = document.getElementsByTagName('A')
+  for (var linkIndex = 0; linkIndex < linkEls.length; linkIndex++) {
+    var linkEl = linkEls[linkIndex]
+
+    // Ignore links that don't begin with #
+    if (!linkEl.getAttribute('href').match(/^#/)) {
+      continue;
+    }
+
+    // Convert to an absolute URL
+    linkEl.setAttribute('href', documentUrl + linkEl.getAttribute('href'))
+  }
+})    
+</script>
+
+<script>
+    const navbar = $('nav.navbar');
+    const navbarCollapse = $('.navbar-collapse');
+
+    // Adding classes to indicate the navbar state
+    navbarCollapse.on('show.bs.collapse', function () {
+      navbar.addClass('expanded');
+    });
+    navbarCollapse.on('hide.bs.collapse', function () {
+      navbar.removeClass('expanded');
+    });
+</script>
+    
+</body>
+
+</html>
